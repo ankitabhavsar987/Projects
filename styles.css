@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #f7dc6f, #f0e68c);
+    margin: 10;
+    padding: 0;
+}
+
+.container {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+#input-field {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#input-field::placeholder {
+    color: #888;
+    opacity: 0.7;
+}
+
+#add-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-button:hover {
+    background-color: #1e8449;
+}
+
+#options-container {
+    text-align: left;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+#decision-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    background: #ecf0f1;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.option .option-text {
+    flex: 1;
+}
+
+.option .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.option .delete-button:hover {
+    background-color: #c0392b;
+}
